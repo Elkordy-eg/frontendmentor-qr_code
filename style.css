@@ -5,7 +5,7 @@
   box-sizzing: border-box;
 }
 
-html , body{
+main {
   background-color: #D2DEEC;
   display: flex;
   height: 100vh;
@@ -16,7 +16,7 @@ html , body{
 }
 
 
-.container{
+.container:first-child{
   width: 320px;
   margin: auto;
   background-color: #ffff;
